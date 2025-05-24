@@ -1,7 +1,7 @@
 {
-  "name": "mocha-app",
+  "name": "military-asset-management",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -19,7 +19,6 @@
     "recharts": "^2.15.3"
   },
   "devDependencies": {
-    "@getmocha/vite-plugins": "latest",
     "@types/react": "19.0.10",
     "@types/react-dom": "19.0.4",
     "@vitejs/plugin-react": "^4.3.1",
