@@ -148,5 +148,51 @@ export const getTransfersByBase = (baseId: string): Transfer[] => {
 };
 
 export const calculateBalanceData = (baseId: string, startDate: string, endDate: string): BalanceData => {
+  // Filter movements by base and date range
   const relevantMovements = assetMovements.filter(
-    movement => movement.base === baseId && movement.date   
+    movement => 
+      movement.base === baseId && 
+      movement.date >= startDate && 
+      movement.date <= endDate
+  );
+
+  // Initialize balance object: key = assetId, value = net quantity
+  const balanceMap: Record<string, number> = {};
+
+  relevantMovements.forEach(movement => {
+    const qty = movement.quantity;
+    const assetId = movement.assetId;
+
+    // Initialize if not exists
+    if (!balanceMap[assetId]) {
+      balanceMap[assetId] = 0;
+    }
+
+    // Add or subtract quantity based on movement type
+    switch (movement.type) {
+      case MovementType.Purchase:
+      case MovementType.TransferIn:
+        balanceMap[assetId] += qty;
+        break;
+      case MovementType.TransferOut:
+      case MovementType.Expenditure:
+      case MovementType.Assignment:
+        balanceMap[assetId] -= qty;
+        break;
+      default:
+        break;
+    }
+  });
+
+  // Convert to array with asset details
+  const balanceData: BalanceData = Object.entries(balanceMap).map(([assetId, netQuantity]) => {
+    const asset = assets.find(a => a.id === assetId);
+    return {
+      assetId,
+      assetName: asset?.name || 'Unknown',
+      netQuantity,
+    };
+  });
+
+  return balanceData;
+};
