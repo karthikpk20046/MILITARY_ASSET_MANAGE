@@ -10,6 +10,9 @@ import Transfers from './pages/Transfers';
 import Bases from './pages/Bases';
 import Personnel from './pages/Personnel';
 
+// Add import for UserRole
+import { UserRole } from './types';
+
 function ProtectedRoute({ children }: { children: React.ReactNode }) {
   const { isAuthenticated } = useAuth();
   
@@ -52,13 +55,13 @@ function LoginPage() {
               <p className="text-sm font-medium text-gray-700 mb-2">Select Role to Login As:</p>
               <div className="grid grid-cols-2 gap-4">
                 <button
-                  onClick={() => handleLogin('commander')}
+                  onClick={() => handleLogin(UserRole.Commander)}
                   className="py-3 px-4 bg-blue-600 hover:bg-blue-700 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition"
                 >
                   Commander
                 </button>
                 <button
-                  onClick={() => handleLogin('logistics')}
+                  onClick={() => handleLogin(UserRole.Logistics)}
                   className="py-3 px-4 bg-slate-700 hover:bg-slate-800 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-slate-500 focus:ring-opacity-50 transition"
                 >
                   Logistics Officer
