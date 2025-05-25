@@ -147,6 +147,60 @@ export const getTransfersByBase = (baseId: string): Transfer[] => {
   return transfers.filter(transfer => transfer.fromBase === baseId || transfer.toBase === baseId);
 };
 
+// Define BalanceData interface
+export interface BalanceData {
+  totalPurchased: number;
+  totalTransferredIn: number;
+  totalTransferredOut: number;
+  totalAssigned: number;
+  totalExpended: number;
+  netMovement: number;
+}
+
+// Calculate balance data for a base within a date range
 export const calculateBalanceData = (baseId: string, startDate: string, endDate: string): BalanceData => {
+  // Filter movements by base and date range (inclusive)
   const relevantMovements = assetMovements.filter(
-    movement => movement.base === baseId && movement.date
+    movement => 
+      movement.base === baseId &&
+      movement.date >= startDate &&
+      movement.date <= endDate
+  );
+
+  let totalPurchased = 0;
+  let totalTransferredIn = 0;
+  let totalTransferredOut = 0;
+  let totalAssigned = 0;
+  let totalExpended = 0;
+
+  relevantMovements.forEach(movement => {
+    switch (movement.type) {
+      case MovementType.Purchase:
+        totalPurchased += movement.quantity;
+        break;
+      case MovementType.TransferIn:
+        totalTransferredIn += movement.quantity;
+        break;
+      case MovementType.TransferOut:
+        totalTransferredOut += movement.quantity;
+        break;
+      case MovementType.Assignment:
+        totalAssigned += movement.quantity;
+        break;
+      case MovementType.Expenditure:
+        totalExpended += movement.quantity;
+        break;
+    }
+  });
+
+  const netMovement = totalPurchased + totalTransferredIn - totalTransferredOut - totalExpended;
+
+  return {
+    totalPurchased,
+    totalTransferredIn,
+    totalTransferredOut,
+    totalAssigned,
+    totalExpended,
+    netMovement,
+  };
+};
