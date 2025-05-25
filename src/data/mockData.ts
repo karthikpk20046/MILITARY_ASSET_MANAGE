@@ -1,10 +1,21 @@
-import { Asset, Base, Transfer, User, AssetMovement } from '../types';
+import { 
+  Asset, 
+  Base, 
+  Transfer, 
+  User, 
+  AssetMovement, 
+  UserRole, 
+  AssetCategory, 
+  AssetStatus, 
+  TransferStatus, 
+  MovementType 
+} from '../types';
 
 // Current user for the demo
 export const currentUser: User = {
   id: 'user1',
   name: 'John Doe',
-  role: 'commander',
+  role: UserRole.Commander,
   base: 'base1'
 };
 
@@ -18,16 +29,16 @@ export const bases: Base[] = [
 
 // Assets
 export const assets: Asset[] = [
-  { id: 'asset1', name: 'M1 Abrams Tank', category: 'vehicle', quantity: 12, base: 'base1', status: 'available' },
-  { id: 'asset2', name: 'Humvee', category: 'vehicle', quantity: 30, base: 'base1', status: 'available' },
-  { id: 'asset3', name: 'M4 Carbine', category: 'weapon', quantity: 150, base: 'base1', status: 'available' },
-  { id: 'asset4', name: '5.56mm Ammunition', category: 'ammunition', quantity: 10000, base: 'base1', status: 'available' },
-  { id: 'asset5', name: 'Bradley Fighting Vehicle', category: 'vehicle', quantity: 8, base: 'base2', status: 'available' },
-  { id: 'asset6', name: 'Javelin Missile System', category: 'weapon', quantity: 15, base: 'base2', status: 'available' },
-  { id: 'asset7', name: 'Black Hawk Helicopter', category: 'vehicle', quantity: 5, base: 'base3', status: 'available' },
-  { id: 'asset8', name: '7.62mm Ammunition', category: 'ammunition', quantity: 8000, base: 'base3', status: 'available' },
-  { id: 'asset9', name: 'Stryker APC', category: 'vehicle', quantity: 10, base: 'base4', status: 'available' },
-  { id: 'asset10', name: 'M777 Howitzer', category: 'weapon', quantity: 4, base: 'base4', status: 'available' },
+  { id: 'asset1', name: 'M1 Abrams Tank', category: AssetCategory.Vehicle, quantity: 12, base: 'base1', status: AssetStatus.Available, assignedTo: null },
+  { id: 'asset2', name: 'Humvee', category: AssetCategory.Vehicle, quantity: 30, base: 'base1', status: AssetStatus.Available, assignedTo: null },
+  { id: 'asset3', name: 'M4 Carbine', category: AssetCategory.Weapon, quantity: 150, base: 'base1', status: AssetStatus.Available, assignedTo: null },
+  { id: 'asset4', name: '5.56mm Ammunition', category: AssetCategory.Ammunition, quantity: 10000, base: 'base1', status: AssetStatus.Available, assignedTo: null },
+  { id: 'asset5', name: 'Bradley Fighting Vehicle', category: AssetCategory.Vehicle, quantity: 8, base: 'base2', status: AssetStatus.Available, assignedTo: null },
+  { id: 'asset6', name: 'Javelin Missile System', category: AssetCategory.Weapon, quantity: 15, base: 'base2', status: AssetStatus.Available, assignedTo: null },
+  { id: 'asset7', name: 'Black Hawk Helicopter', category: AssetCategory.Vehicle, quantity: 5, base: 'base3', status: AssetStatus.Available, assignedTo: null },
+  { id: 'asset8', name: '7.62mm Ammunition', category: AssetCategory.Ammunition, quantity: 8000, base: 'base3', status: AssetStatus.Available, assignedTo: null },
+  { id: 'asset9', name: 'Stryker APC', category: AssetCategory.Vehicle, quantity: 10, base: 'base4', status: AssetStatus.Available, assignedTo: null },
+  { id: 'asset10', name: 'M777 Howitzer', category: AssetCategory.Weapon, quantity: 4, base: 'base4', status: AssetStatus.Available, assignedTo: null },
 ];
 
 // Transfers
@@ -40,7 +51,7 @@ export const transfers: Transfer[] = [
     fromBase: 'base1', 
     toBase: 'base2', 
     date: '2023-10-15', 
-    status: 'completed', 
+    status: TransferStatus.Completed, 
     initiatedBy: 'user1' 
   },
   { 
@@ -51,7 +62,7 @@ export const transfers: Transfer[] = [
     fromBase: 'base1', 
     toBase: 'base3', 
     date: '2023-11-02', 
-    status: 'in-transit', 
+    status: TransferStatus.InTransit, 
     initiatedBy: 'user1' 
   },
   { 
@@ -62,7 +73,7 @@ export const transfers: Transfer[] = [
     fromBase: 'base1', 
     toBase: 'base4', 
     date: '2023-11-10', 
-    status: 'pending', 
+    status: TransferStatus.Pending, 
     initiatedBy: 'user1' 
   },
 ];
@@ -73,8 +84,8 @@ export const assetMovements: AssetMovement[] = [
     id: 'mov1', 
     assetId: 'asset1', 
     assetName: 'M1 Abrams Tank', 
-    category: 'vehicle',
-    type: 'purchase', 
+    category: AssetCategory.Vehicle,
+    type: MovementType.Purchase, 
     quantity: 2, 
     base: 'base1', 
     date: '2023-09-01' 
@@ -83,8 +94,8 @@ export const assetMovements: AssetMovement[] = [
     id: 'mov2', 
     assetId: 'asset2', 
     assetName: 'Humvee', 
-    category: 'vehicle',
-    type: 'transfer-out', 
+    category: AssetCategory.Vehicle,
+    type: MovementType.TransferOut, 
     quantity: 5, 
     base: 'base1', 
     date: '2023-10-15',
@@ -94,8 +105,8 @@ export const assetMovements: AssetMovement[] = [
     id: 'mov3', 
     assetId: 'asset2', 
     assetName: 'Humvee', 
-    category: 'vehicle',
-    type: 'transfer-in', 
+    category: AssetCategory.Vehicle,
+    type: MovementType.TransferIn, 
     quantity: 5, 
     base: 'base2', 
     date: '2023-10-15',
@@ -105,8 +116,8 @@ export const assetMovements: AssetMovement[] = [
     id: 'mov4', 
     assetId: 'asset3', 
     assetName: 'M4 Carbine', 
-    category: 'vehicle',
-    type: 'assignment', 
+    category: AssetCategory.Weapon,
+    type: MovementType.Assignment, 
     quantity: 50, 
     base: 'base1', 
     date: '2023-10-20' 
@@ -115,8 +126,8 @@ export const assetMovements: AssetMovement[] = [
     id: 'mov5', 
     assetId: 'asset4', 
     assetName: '5.56mm Ammunition', 
-    category: 'ammunition',
-    type: 'expenditure', 
+    category: AssetCategory.Ammunition,
+    type: MovementType.Expenditure, 
     quantity: 1000, 
     base: 'base1', 
     date: '2023-10-25' 
@@ -138,44 +149,4 @@ export const getTransfersByBase = (baseId: string): Transfer[] => {
 
 export const calculateBalanceData = (baseId: string, startDate: string, endDate: string): BalanceData => {
   const relevantMovements = assetMovements.filter(
-    movement => movement.base === baseId && movement.date >= startDate && movement.date <= endDate
-  );
-  
-  const purchases = relevantMovements
-    .filter(m => m.type === 'purchase')
-    .reduce((sum, m) => sum + m.quantity, 0);
-    
-  const transfersIn = relevantMovements
-    .filter(m => m.type === 'transfer-in')
-    .reduce((sum, m) => sum + m.quantity, 0);
-    
-  const transfersOut = relevantMovements
-    .filter(m => m.type === 'transfer-out')
-    .reduce((sum, m) => sum + m.quantity, 0);
-    
-  const assigned = relevantMovements
-    .filter(m => m.type === 'assignment')
-    .reduce((sum, m) => sum + m.quantity, 0);
-    
-  const expended = relevantMovements
-    .filter(m => m.type === 'expenditure')
-    .reduce((sum, m) => sum + m.quantity, 0);
-  
-  const netMovement = purchases + transfersIn - transfersOut;
-  
-  // Calculate opening and closing balances
-  // For this demo, we'll just use arbitrary values
-  const opening = 50000;
-  const closing = opening + netMovement - expended;
-  
-  return {
-    opening,
-    closing,
-    netMovement,
-    purchases,
-    transfersIn,
-    transfersOut,
-    assigned,
-    expended
-  };
-};
+    movement => movement.base === baseId && movement.date
