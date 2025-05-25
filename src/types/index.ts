@@ -1,5 +1,37 @@
-export type UserRole = 'commander' | 'logistics';
+// Enums
+export enum UserRole {
+  Commander = 'commander',
+  Logistics = 'logistics'
+}
 
+export enum AssetCategory {
+  Vehicle = 'vehicle',
+  Weapon = 'weapon',
+  Ammunition = 'ammunition'
+}
+
+export enum AssetStatus {
+  Available = 'available',
+  Assigned = 'assigned',
+  InTransit = 'in-transit',
+  Expended = 'expended'
+}
+
+export enum TransferStatus {
+  Pending = 'pending',
+  InTransit = 'in-transit',
+  Completed = 'completed'
+}
+
+export enum MovementType {
+  Purchase = 'purchase',
+  TransferIn = 'transfer-in',
+  TransferOut = 'transfer-out',
+  Assignment = 'assignment',
+  Expenditure = 'expenditure'
+}
+
+// Interfaces
 export interface User {
   id: string;
   name: string;
@@ -10,11 +42,11 @@ export interface User {
 export interface Asset {
   id: string;
   name: string;
-  category: 'vehicle' | 'weapon' | 'ammunition';
+  category: AssetCategory;
   quantity: number;
   base: string;
-  status: 'available' | 'assigned' | 'in-transit' | 'expended';
-  assignedTo?: string;
+  status: AssetStatus;
+  assignedTo: string | null;
 }
 
 export interface Base {
@@ -31,7 +63,7 @@ export interface Transfer {
   fromBase: string;
   toBase: string;
   date: string;
-  status: 'pending' | 'in-transit' | 'completed';
+  status: TransferStatus;
   initiatedBy: string;
 }
 
@@ -39,8 +71,8 @@ export interface AssetMovement {
   id: string;
   assetId: string;
   assetName: string;
-  category: 'vehicle' | 'weapon' | 'ammunition';
-  type: 'purchase' | 'transfer-in' | 'transfer-out' | 'assignment' | 'expenditure';
+  category: AssetCategory;
+  type: MovementType;
   quantity: number;
   base: string;
   date: string;
