@@ -78,7 +78,11 @@ export interface AssetMovement {
   date: string;
   relatedTransferId?: string;
 }
-
+export type BalanceData = Array<{
+  assetId: string;
+  assetName: string;
+  netQuantity: number;
+}>
 export interface BalanceData {
   opening: number;
   closing: number;
