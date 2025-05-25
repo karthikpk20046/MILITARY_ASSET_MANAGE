@@ -55,7 +55,7 @@ export default function Dashboard() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">
         <DashboardCard
           title="Opening Balance"
-          value={balanceData.opening.toLocaleString()}
+          value={balanceData?.opening != null ? balanceData.opening.toLocaleString() : '0'}
           icon={<Clipboard size={24} />}
         />
         <DashboardCard
