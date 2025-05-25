@@ -1,6 +1,6 @@
 import { ReactNode, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { ArrowLeftRight, BarChart4, Box, LogOut, Menu, Shield, Truck, Users, X } from 'lucide-react';
+import { ArrowLeftRight, BarChart4, Box, LogOut, Menu, Shield, Truck, Users } from 'lucide-react';
 import { useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 
