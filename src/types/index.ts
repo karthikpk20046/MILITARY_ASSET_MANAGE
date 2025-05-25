@@ -78,11 +78,13 @@ export interface AssetMovement {
   date: string;
   relatedTransferId?: string;
 }
+
 export type BalanceData = Array<{
   assetId: string;
   assetName: string;
   netQuantity: number;
 }>
+
 export interface BalanceData {
   opening: number;
   closing: number;
@@ -93,3 +95,3099 @@ export interface BalanceData {
   assigned: number;
   expended: number;
 }
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
+  purchases: number;
+  transfersIn: number;
+  transfersOut: number;
+  assigned: number;
+  expended: number;
+}
+
+export interface BalanceData {
+  opening: number;
+  closing: number;
+  netMovement: number;
