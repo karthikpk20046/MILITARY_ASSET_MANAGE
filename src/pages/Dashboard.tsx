@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react';
+// Remove the unused import:
+// import { ArrowLeftRight } from 'lucide-react';
 import { ArrowLeftRight, Clipboard, Package, ShieldAlert, TrendingUp } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import DashboardCard from '../components/DashboardCard';
