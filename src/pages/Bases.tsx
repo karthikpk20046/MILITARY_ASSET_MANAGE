@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { bases, getAssetsByBase } from '../data/mockData';
-import { Box, Calendar, MapPin, TrendingUp, Users } from 'lucide-react';
+// Remove the unused import:
+// import { Users } from 'lucide-react';
 
 export default function Bases() {
   const [selectedBase, setSelectedBase] = useState(bases[0]);
