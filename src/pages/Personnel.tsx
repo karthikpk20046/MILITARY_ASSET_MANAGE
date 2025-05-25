@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { bases } from '../data/mockData';
-import { Mail, MapPin, Phone, Shield, UserRound } from 'lucide-react';
+// Remove the unused import:
+// import { UserRound } from 'lucide-react';
 
 // Mock personnel data since it's not in the original mock data
 const mockPersonnel = [
