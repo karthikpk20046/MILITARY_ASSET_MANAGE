@@ -23,7 +23,7 @@ function ProtectedRoute({ children }: { children: React.ReactNode }) {
 function LoginPage() {
   const { login } = useAuth();
   
-  const handleLogin = (role: 'commander' | 'logistics') => {
+  const handleLogin = (role: UserRole) => {
     login(role);
   };
   
